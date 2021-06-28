@@ -1,0 +1,62 @@
+body
+{
+	background-image:url(images/pic1.png);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
+	
+	
+.login-page
+{
+	width:360px;
+	padding:10% 0 0;
+	margin:auto;
+}
+
+
+.form
+{
+	position:relative;
+	z-index:1;
+	background:black;
+	max-width:360px;
+	margin:0 auto 100px;
+	padding:45px;
+	text-align:center;
+}
+
+
+.form input 
+{
+	font-family:"Arial";
+	outline:1;
+	background:white;
+	width:100%;
+	border:0;
+	margin:0 0 10px;
+	padding:15px;
+	box-sizing:border-box;
+	font-size:14px;
+}
+.form button
+{
+	width:100%;
+	text-align:center;
+	text-transform:uppercase;
+	padding:15px;
+	background:blue;
+	color:white;
+	
+
+}
+
+
+.form .message{
+	color:white;
+}
+.form .message a{
+	text-decoration:none;
+}
+
+
